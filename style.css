@@ -42,6 +42,7 @@ body {
     margin: 15px 0;
     width: 534px;
     margin-left: 129px;
+    
   }
   
   .shopping-list li {
@@ -52,6 +53,18 @@ body {
   
     position: relative;
     transition: background-color 0.3s ease;
+  }
+
+  .shopping-list li {
+    padding: 10px;
+  }
+
+  .shopping-list li:nth-child(odd) {
+    background: #88839E;
+  }
+  
+  .shopping-list li:nth-child(even) {
+    background: #7A7593;
   }
   
   .shopping-list li:hover {
